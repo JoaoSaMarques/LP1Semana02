@@ -20,10 +20,18 @@ namespace PerguntaValores
             double Volume = Math.PI * (Radius * Radius) * Height;
             //Math for the area of the cylinder
             double Area = 2 * Math.PI * Radius * (Radius * Height);
+            
             //Write the result of the height
             Console.WriteLine("Volume of cylinder: " + Volume);
             //Write the result of the surface
             Console.WriteLine("Surface of the cylinder: " + Area);
+
+            //Make a variable that equals the radius
+            var squareNumber = Radius;
+            //Square root of radius
+            squareNumber= Math.Pow(squareNumber,2);
+            //Write the result of the square root
+            Console.WriteLine("Square of R is: " + squareNumber);
 
         }
     }
