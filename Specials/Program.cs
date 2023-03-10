@@ -28,13 +28,11 @@ namespace Specials
             //Positive Infinity = ∞
             Console.WriteLine(positiveD == double.PositiveInfinity);
 
-
-            //Exe 7
-
+            //Exe 7 (Paused because short. not working)
             //Int value
-            int i = short.MaxValue;
+            int pineapple = short.MaxValue;
             //Overflow of Int
-            Console.WriteLine((short(i + 1)))
+            Console.WriteLine(short (i + 1));
 
 
 
