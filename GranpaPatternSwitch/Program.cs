@@ -6,7 +6,16 @@ namespace GranpaPatternSwitch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int option = Convert.ToInt32(Console.ReadLine());
+            string message = option switch
+            {
+                
+                1 => "The value is low",
+                2 => "Meh... could be better",
+                _ => "What?",
+                
+            };
+            Console.WriteLine(message);
         }
     }
 }
