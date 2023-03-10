@@ -14,10 +14,9 @@ namespace GranpaPatternSwitch
                 2 => "Meh... could be better",
                 3 => "Hiyo!",
                 4 => "KitKat...",
-                ? => "HUH?!",
-                ! => "FOR THE GLORY OF MANKIND!",
+                5 => "HUH?!",
+                6 => "FOR THE GLORY OF MANKIND!",
                 _ => "What?",
-                . => "We're done.",
                 
             };
             Console.WriteLine(message);
