@@ -8,6 +8,7 @@ namespace ManipulaVar
         {
             string val;
             int res;
+            int res2;
 
             //Tells user to input a number
             Console.WriteLine("Input a number: ");
@@ -15,10 +16,11 @@ namespace ManipulaVar
             val = Console.ReadLine();
             //Convert string into int
             res = Convert.ToInt32(val);
+            res2 = res;
             //This line writes a sentence and then does -- to input
-            Console.WriteLine("-- behind value: ", -- res);
+            Console.WriteLine(-- res);
             //This line writes a sentence and then does ++ to input
-            Console.WriteLine("++ behind value_ ", ++ res);
+            Console.WriteLine(++ res2);
 
         }
     }
