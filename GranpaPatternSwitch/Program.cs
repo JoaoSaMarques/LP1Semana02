@@ -12,7 +12,12 @@ namespace GranpaPatternSwitch
                 
                 1 => "The value is low",
                 2 => "Meh... could be better",
+                3 => "Hiyo!",
+                4 => "KitKat...",
+                ? => "HUH?!",
+                ! => "FOR THE GLORY OF MANKIND!",
                 _ => "What?",
+                . => "We're done.",
                 
             };
             Console.WriteLine(message);
