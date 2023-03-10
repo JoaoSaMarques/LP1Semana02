@@ -6,10 +6,12 @@ namespace GranpaPatternSwitch
     {
         static void Main(string[] args)
         {
+            //Convert answer to int
             int option = Convert.ToInt32(Console.ReadLine());
+            //Type first part to print second part
             string message = option switch
             {
-                
+                //Options
                 1 => "The value is low",
                 2 => "Meh... could be better",
                 3 => "Hiyo!",
@@ -19,6 +21,7 @@ namespace GranpaPatternSwitch
                 _ => "What?",
                 
             };
+            //Print first part asked
             Console.WriteLine(message);
         }
     }
