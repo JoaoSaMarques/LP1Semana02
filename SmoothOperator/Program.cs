@@ -22,10 +22,13 @@ namespace SmoothOperator
             n++;
             Console.WriteLine(n);
 
-            //Divide by  2
+            //Divide by 2
             int Divide = n/2;
             Console.WriteLine(Divide);
 
+            //Shift 3 to the left
+            int ShiftLeft = n << 3;
+            Console.WriteLine(ShiftLeft);
         }
     }
 }
