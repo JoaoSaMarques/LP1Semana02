@@ -14,12 +14,12 @@ namespace SmoothOperator
             byte n = byte.Parse(a);
 
             //Decrement the number by 1
-            byte result1 = (byte)(n - 1);
-            Console.WriteLine(result1);
+            n--;
+            Console.WriteLine(n);
 
             //Increment the number by 1
-            byte result2 = (byte)(n + 1);
-            Console.WriteLine(result2);
+            n++;
+            Console.WriteLine(n);
 
         }
     }
