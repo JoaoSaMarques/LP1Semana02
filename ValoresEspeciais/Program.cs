@@ -35,14 +35,19 @@ namespace ValoresEspeciais
             // overflow uint
             uint maxUInt = uint.MaxValue;
             uint overflowUINT = maxUInt + 1;
-            Console.WriteLine($"Overflow em uint: {overflowUINT}");
+            Console.WriteLine($"Overflow in uint: {overflowUINT}");
 
             // Overflow Float
             float maxFloat = float.MaxValue;
             float overflowFloat1 = maxFloat * 10;
             float overflowFloat2 = maxFloat + 20;
-            Console.WriteLine($"Overflow em float: {overflowFloat1}");
-            Console.WriteLine($"Overflow em float: {overflowFloat2}");
+            Console.WriteLine($"Overflow in float: {overflowFloat1}");
+            Console.WriteLine($"Overflow in float: {overflowFloat2}");
+
+            // Underflow Float
+            float minFloat = float.MinValue;
+            float underflowFloat = minFloat - 1;
+            Console.WriteLine($"Underflow in float: {underflowFloat}");
         }
     }
 }
