@@ -29,6 +29,10 @@ namespace SmoothOperator
             //Shift 3 to the left
             int ShiftLeft = n << 3;
             Console.WriteLine(ShiftLeft);
+
+            //Xor with 5?
+            int xor = n ^ 5;
+            Console.WriteLine(xor);
         }
     }
 }
