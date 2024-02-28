@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.XPath;
 
 namespace SmoothOperator
 {
@@ -20,6 +21,10 @@ namespace SmoothOperator
             //Increment the number by 1
             n++;
             Console.WriteLine(n);
+
+            //Divide by  2
+            int Divide = n/2;
+            Console.WriteLine(Divide);
 
         }
     }
