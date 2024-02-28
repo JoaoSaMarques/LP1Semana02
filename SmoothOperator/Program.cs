@@ -8,7 +8,7 @@ namespace SmoothOperator
         static void Main(string[] args)
         {
             //Ask for number that isn't negative or with ","
-            Console.WriteLine("Insere número inteiro não-negativo:");
+            Console.Write("Insere número inteiro não-negativo:");
             string a = Console.ReadLine();
 
             //Convert read into int
