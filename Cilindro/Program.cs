@@ -11,14 +11,19 @@ namespace Cilindro
             string First = Console.ReadLine();
 
             //Convert to double
-            double a = double.Parse(First);
+            float a = float.Parse(First);
 
             //Ask for Radius
             Console.WriteLine("Please input a radius");
             string Second = Console.ReadLine();
 
             //Convert to double
-            double r = double.Parse(Second);
+            float r = float.Parse(Second);
+
+            float Volume = MathF.PI * MathF.Pow(r, 2) * a;
+
+            //print total volume
+            Console.WriteLine($"Total volume: " + Volume);
         }
     }
 }
