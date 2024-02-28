@@ -28,6 +28,8 @@ namespace Cilindro
 
             //print total volume
             Console.WriteLine($"Total volume: " + Volume);
+            //print Surface area
+            Console.WriteLine($"Total volume: " + surfaceArea);
         }
     }
 }
