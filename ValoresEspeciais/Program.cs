@@ -31,6 +31,11 @@ namespace ValoresEspeciais
             Console.WriteLine($"+ Infin for double: {double.PositiveInfinity}");
             Console.WriteLine($"- Infin for double: {double.NegativeInfinity}");
             Console.WriteLine($"NaN for double: {double.NaN}");
+
+            // overflow uint
+            uint maxUInt = uint.MaxValue;
+            uint overflowUINT = maxUInt + 1;
+            Console.WriteLine($"Overflow em uint: {overflowUINT}");
         }
     }
 }
