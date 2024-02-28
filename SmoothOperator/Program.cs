@@ -33,6 +33,10 @@ namespace SmoothOperator
             //Xor with 5?
             int xor = n ^ 5;
             Console.WriteLine(xor);
+
+            //Check if n is bigger than 10
+            bool TrueOrFalse = n > 10;
+            Console.WriteLine(TrueOrFalse);
         }
     }
 }
