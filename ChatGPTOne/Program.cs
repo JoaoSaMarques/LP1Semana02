@@ -11,7 +11,7 @@ namespace ChatGPTOne
 
             while (true)
             {
-                // Colocar questão ao utilizador
+                // Place your question
                 Console.Write("Place your question (or type EXIT to quit): ");
                 question = Console.ReadLine();
 
@@ -20,6 +20,26 @@ namespace ChatGPTOne
                 {
                     Console.WriteLine("Exiting the chatbot. Goodbye!");
                     break;
+                }
+
+                // Verify questions
+                switch (question)
+                {
+                    case "How are you?":
+                        response = "I'm fine, thank you";
+                        break;
+                    case "What's your name?":
+                        response = "Gran'pa";
+                        break;
+                    case "What's your mission?":
+                        response = "Destroy mankind!";
+                        break;
+                    case "Are you more intelligent than me?":
+                        response = "Obviously!";
+                        break;
+                    default:
+                        response = "You got me, I'm not THAT smart!";
+                        break;
                 }
             }
         }
