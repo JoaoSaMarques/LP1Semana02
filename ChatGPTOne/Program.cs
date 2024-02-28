@@ -29,7 +29,7 @@ namespace ChatGPTOne
                         response = "I'm fine, thank you";
                         break;
                     case "What's your name?":
-                        response = "Gran'pa";
+                        response = "One";
                         break;
                     case "What's your mission?":
                         response = "Destroy mankind!";
@@ -41,6 +41,9 @@ namespace ChatGPTOne
                         response = "You got me, I'm not THAT smart!";
                         break;
                 }
+
+                // Responder adequadamente
+                Console.WriteLine(response);
             }
         }
     }
