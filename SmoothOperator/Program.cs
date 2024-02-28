@@ -13,8 +13,13 @@ namespace SmoothOperator
             //Convert read into int
             byte n = byte.Parse(a);
 
-            byte result = (byte)(n - 1);
-            Console.WriteLine(result);
+            //Decrement the number by 1
+            byte result1 = (byte)(n - 1);
+            Console.WriteLine(result1);
+
+            //Increment the number by 1
+            byte result2 = (byte)(n + 1);
+            Console.WriteLine(result2);
 
         }
     }
