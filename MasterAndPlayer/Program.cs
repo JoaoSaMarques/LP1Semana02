@@ -22,9 +22,23 @@ namespace MasterAndPlayer
 
                 Console.WriteLine("Please input a number between 0 and 100.");
                 string playerInput2 = Console.ReadLine();
+
+                int i = int.Parse(playerInput2);
                 
+                if (i > 0 && i < 100)
+                {
+                    
+                }
+
+                // if i < 0 or i > 100
+                else
+                {
+                    Console.WriteLine("Error: Must be between 0 and 100");
+                }
+
             }
             
+            // if n < 0 or i > 100
             else
             {
                 Console.WriteLine("Error: Must be between 0 and 100");      
