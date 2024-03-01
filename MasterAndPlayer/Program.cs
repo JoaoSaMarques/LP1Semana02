@@ -6,18 +6,27 @@ namespace MasterAndPlayer
     {
         static void Main(string[] args)
         {
-            Console.Write("Please input a number between 0 and 100");
-            string a = Console.ReadLine();
+            Console.WriteLine("Please input a number between 0 and 100.");
+            string playerInput1 = Console.ReadLine();
 
-            int n = int.Parse(a);
+            int n = int.Parse(playerInput1);
 
-            while (n > 0 || n < 100)
+            if (n > 0 || n < 100)
             {
-                if (n < 0 || n > 100)
+                // Will increment number until it reaches 100
+                for (int Blanks = 0; Blanks <= 100; Blanks++)
                 {
-                    Console.Write("Error");
-                    break;
+                    //Print 100 Blanks
+                    Console.WriteLine(""); 
                 }
+
+                Console.WriteLine("Please input a number between 0 and 100.");
+                string playerInput2 = Console.ReadLine();
+            }
+            
+            else
+            {
+                Console.WriteLine("Error: Must be between 0 and 100");      
             }
 
         }
