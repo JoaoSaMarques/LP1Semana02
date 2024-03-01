@@ -11,7 +11,7 @@ namespace MasterAndPlayer
 
             int n = int.Parse(playerInput1);
 
-            if (n > 0 || n < 100)
+            if (n > 0 && n < 100)
             {
                 // Will increment number until it reaches 100
                 for (int Blanks = 0; Blanks <= 100; Blanks++)
@@ -22,6 +22,7 @@ namespace MasterAndPlayer
 
                 Console.WriteLine("Please input a number between 0 and 100.");
                 string playerInput2 = Console.ReadLine();
+                
             }
             
             else
