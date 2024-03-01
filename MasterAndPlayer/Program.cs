@@ -23,31 +23,44 @@ namespace MasterAndPlayer
                     Console.WriteLine(""); 
                 }
 
-                //Ask second user for number between 0 and 100
-                Console.WriteLine("Please input a number between 0 and 100.");
-                string playerInput2 = Console.ReadLine();
-
-                //Convert input to int
-                int i = int.Parse(playerInput2);
-                
-                //Loop
-                if (i > 0 && i < 100)
+                while (true)
                 {
-                    
-                }
+                    Console.WriteLine("Please input a number between 0 and 100.");
+                    string playerInput2 = Console.ReadLine();
 
-                // if i < 0 or i > 100
-                else
-                {
-                    Console.WriteLine("Error: Must be between 0 and 100");
-                }
+                    int i = int.Parse(playerInput2);
 
+                    if (i < 0 || i > 100)
+                    {
+                        Console.WriteLine("Error: Must be between 0 and 100");
+
+                        //This will restart the loop instead or exiting
+                        continue;
+                    }
+
+                    //If i is higher than n
+                    if (i > n)
+                    {
+                        Console.WriteLine("Your guess is too high.");
+                    }
+
+                    //if i is lower than n
+                    else if (i < n)
+                    {
+                        Console.WriteLine("Your guess is too low.");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Correct!");
+                        break;
+                    }
+                }
             }
-            
-            // if n < 0 or i > 100
+
             else
             {
-                Console.WriteLine("Error: Must be between 0 and 100");      
+                Console.WriteLine("Error: Must be between 0 and 100");
             }
 
         }
