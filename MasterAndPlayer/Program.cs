@@ -6,7 +6,10 @@ namespace MasterAndPlayer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Please input a number between 1 and 100");
+            string a = Console.ReadLine();
+
+            int n = int.Parse(a);
         }
     }
 }
