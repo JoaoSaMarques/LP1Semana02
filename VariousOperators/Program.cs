@@ -16,6 +16,7 @@ namespace VariousOperators
                 byte dividedResult = (byte)(n / 2);
                 byte shiftedResult = (byte)(n << 3);
                 byte XORResult = (byte)(n ^ 6);
+                bool isGreaterThanTen = n > 10;
 
                 // Display results
                 Console.WriteLine($"Decrement result: {decrementResult}");
