@@ -27,6 +27,11 @@ namespace ValoresEspeciais
             // Test and display result of overflow in uint
             uint overflowTest = uint.MaxValue;
             Console.WriteLine($"Overflow in uint: {overflowTest + 1}"); 
+
+            // Test and display results for float overflow
+            float floatOverflowTest = float.MaxValue;
+            Console.WriteLine($"Overflow in float (exceeding max): {floatOverflowTest + 1}"); 
+            Console.WriteLine($"NaN test: {0f / 0f}"); //This will result in NaN
         }
     }
 }
