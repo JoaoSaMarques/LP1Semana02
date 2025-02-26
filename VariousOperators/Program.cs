@@ -12,8 +12,8 @@ namespace VariousOperators
 
             if (byte.TryParse(input, out n))
             {
-                // Perform decrement and increment
-                byte decrementResult = (byte)(n - 1);
+                // Divide by 2
+                byte decrementResult = (byte)(n / 2);
                 byte incrementResult = (byte)(n + 1);
 
                 // Display results
