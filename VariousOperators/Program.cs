@@ -12,9 +12,10 @@ namespace VariousOperators
 
             if (byte.TryParse(input, out n))
             {
-                // Divide by 2
+                // Perform the math
                 byte dividedResult = (byte)(n / 2);
                 byte shiftedResult = (byte)(n << 3);
+                byte XORResult = (byte)(n ^ 6);
 
                 // Display results
                 Console.WriteLine($"Decrement result: {decrementResult}");
