@@ -12,10 +12,10 @@ namespace SmoothOperator
             sbyte n = sbyte.Parse(input);
 
             n--;
-            Console.WriteLine($"Decrement result: {n}");
+            Console.WriteLine($"{n}");
 
             n++;
-            Console.WriteLine($"Decrement result: {n}");
+            Console.WriteLine($"{n}");
         }
     }
 }
