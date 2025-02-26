@@ -19,8 +19,10 @@ namespace VariousOperators
                 bool isGreaterThanTen = n > 10;
 
                 // Display results
-                Console.WriteLine($"Decrement result: {decrementResult}");
-                Console.WriteLine($"Increment result: {incrementResult}");
+                Console.WriteLine($"Dived by 2: {dividedResult}");
+                Console.WriteLine($"Shift left by 3: {shiftedResult}");
+                Console.WriteLine($"XOR with 6: {XORResult}");
+                Console.WriteLine($"Is greater than 10: {isGreaterThanTen}");
             }
 
             else
