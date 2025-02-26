@@ -8,23 +8,14 @@ namespace SmoothOperator
         {
             Console.Write("Insire número inteiro: ");
             string input = Console.ReadLine();
-            sbyte n;
 
-            if (sbyte.TryParse(input, out n))
-            {
-                // Perform decrement and increment
-                sbyte decrementResult = (sbyte)(n - 1);
-                sbyte incrementResult = (sbyte)(n + 1);
+            sbyte n = sbyte.Parse(input);
 
-                // Display results
-                Console.WriteLine($"Decrement result: {decrementResult}");
-                Console.WriteLine($"Increment result: {incrementResult}");
-            }
+            n--;
+            Console.WriteLine($"Decrement result: {n}");
 
-            else
-            {
-                Console.WriteLine("Invalid input.");
-            }
+            n++;
+            Console.WriteLine($"Decrement result: {n}");
         }
     }
 }
