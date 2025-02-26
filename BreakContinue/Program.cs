@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 
 namespace BreakContinue
 {
@@ -25,11 +25,17 @@ namespace BreakContinue
                 }
 
                 // Print turn number
-                Console.WriteLine($"Turn number {turn}");
+                if (turn != 10)
+                {
+                    Console.WriteLine($"Turn number {turn}");
+                }
             }
 
             // Print number of last turn
-            Console.WriteLine($"Last turn was {turn}");
+            if (turn != 10)
+            {
+                Console.WriteLine($"Last turn was {turn}");
+            }
         }
     }
 }
