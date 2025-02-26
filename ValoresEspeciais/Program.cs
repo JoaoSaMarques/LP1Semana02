@@ -32,6 +32,10 @@ namespace ValoresEspeciais
             float floatOverflowTest = float.MaxValue;
             Console.WriteLine($"Overflow in float (exceeding max): {floatOverflowTest + 1}"); 
             Console.WriteLine($"NaN test: {0f / 0f}"); //This will result in NaN
+
+            // Test and display result of underflow in float
+            float floatUnderflowTest = float.MinValue;
+            Console.WriteLine($"Underflow in float: {floatUnderflowTest - 1}"); 
         }
     }
 }
