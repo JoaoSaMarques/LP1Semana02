@@ -13,6 +13,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"ushort: Max = {ushort.MaxValue}, Min = {ushort.MinValue}");
             Console.WriteLine($"int: Max = {int.MaxValue}, Min = {int.MinValue}");
             Console.WriteLine($"uint: Max = {uint.MaxValue}, Min = {uint.MinValue}");
+            Console.WriteLine($"long: Max = {long.MaxValue}, Min = {long.MinValue}");
+            Console.WriteLine($"ulong: Max = {ulong.MaxValue}, Min = {ulong.MinValue}");
         }
     }
 }
