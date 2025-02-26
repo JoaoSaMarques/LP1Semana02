@@ -6,7 +6,7 @@ namespace VariousOperators
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Insire número inteiro-não negativo: ");
+            Console.Write("Insire número inteiro-não negativo: ");
             string input = Console.ReadLine();
             byte n;
 
