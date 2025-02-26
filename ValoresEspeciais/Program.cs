@@ -15,6 +15,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"uint: Max = {uint.MaxValue}, Min = {uint.MinValue}");
             Console.WriteLine($"long: Max = {long.MaxValue}, Min = {long.MinValue}");
             Console.WriteLine($"ulong: Max = {ulong.MaxValue}, Min = {ulong.MinValue}");
+            Console.WriteLine($"float: Max = {float.MaxValue}, Min = {float.MinValue}");
+            Console.WriteLine($"double: Max = {double.MaxValue}, Min = {double.MinValue}");
         }
     }
 }
