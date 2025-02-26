@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 
 namespace SmoothOperator
 {
@@ -7,7 +7,8 @@ namespace SmoothOperator
         private static void Main(string[] args)
         {
             Console.WriteLine("Please input a an integer number:");
-            int n = Convert.ToInt32(Console.ReadLine());
+            string s = Console.ReadLine();
+            sbyte n = sbyte.Parse(s);
         }
     }
 }
