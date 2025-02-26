@@ -6,7 +6,7 @@ namespace ValoresEspeciais
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            // Print max and min values for various types
         }
     }
 }
