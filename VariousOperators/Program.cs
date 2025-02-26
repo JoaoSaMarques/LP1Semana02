@@ -13,8 +13,8 @@ namespace VariousOperators
             if (byte.TryParse(input, out n))
             {
                 // Divide by 2
-                byte decrementResult = (byte)(n / 2);
-                byte incrementResult = (byte)(n + 1);
+                byte dividedResult = (byte)(n / 2);
+                byte shiftedResult = (byte)(n << 3);
 
                 // Display results
                 Console.WriteLine($"Decrement result: {decrementResult}");
