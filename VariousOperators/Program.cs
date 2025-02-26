@@ -8,13 +8,13 @@ namespace VariousOperators
         {
             Console.WriteLine("Please input a non-negative integer number:");
             string input = Console.ReadLine();
-            sbyte n;
+            byte n;
 
-            if (sbyte.TryParse(input, out n))
+            if (byte.TryParse(input, out n))
             {
                 // Perform decrement and increment
-                sbyte decrementResult = (sbyte)(n - 1);
-                sbyte incrementResult = (sbyte)(n + 1);
+                byte decrementResult = (byte)(n - 1);
+                byte incrementResult = (byte)(n + 1);
 
                 // Display results
                 Console.WriteLine($"Decrement result: {decrementResult}");
