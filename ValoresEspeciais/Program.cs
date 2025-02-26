@@ -11,6 +11,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"sbyte: Max = {sbyte.MaxValue}, Min = {sbyte.MinValue}");
             Console.WriteLine($"short: Max = {short.MaxValue}, Min = {short.MinValue}");
             Console.WriteLine($"ushort: Max = {ushort.MaxValue}, Min = {ushort.MinValue}");
+            Console.WriteLine($"int: Max = {int.MaxValue}, Min = {int.MinValue}");
+            Console.WriteLine($"uint: Max = {uint.MaxValue}, Min = {uint.MinValue}");
         }
     }
 }
