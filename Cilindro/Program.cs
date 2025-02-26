@@ -20,7 +20,9 @@ namespace Cilindro
             // Calculate surface area
             double areaSuperficie = 2 * Math.PI * r * (r + a);
 
-
+            // Display results formatted to three decimal places
+            Console.WriteLine($"Volume: {V:F3}");
+            Console.WriteLine($"Área de superfície: {areaSuperficie:F3}");
         }
     }
 }
