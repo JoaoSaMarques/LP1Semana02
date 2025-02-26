@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 
 namespace SmoothOperator
 {
@@ -6,15 +6,25 @@ namespace SmoothOperator
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Please input a an integer number:");
-            string s = Console.ReadLine();
-            sbyte n = sbyte.Parse(s);
+            Console.WriteLine("Please input an integer number:");
+            string input = Console.ReadLine();
+            sbyte n;
 
-            // Decremento de N
-            Console.WriteLine(n - 1);
+            if (sbyte.TryParse(input, out n))
+            {
+                // Perform decrement and increment
+                sbyte decrementResult = (sbyte)(n - 1);
+                sbyte incrementResult = (sbyte)(n + 1);
 
-            // Incremento de N
-            Console.WriteLine(n + 1);
+                // Display results
+                Console.WriteLine($"Decrement result: {decrementResult}");
+                Console.WriteLine($"Increment result: {incrementResult}");
+            }
+
+            else
+            {
+                Console.WriteLine("Invalid input.");
+            }
         }
     }
 }
