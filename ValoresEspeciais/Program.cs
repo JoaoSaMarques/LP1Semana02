@@ -23,6 +23,10 @@ namespace ValoresEspeciais
             Console.WriteLine($"Negative Infinity: {float.NegativeInfinity}, {double.NegativeInfinity}");
             Console.WriteLine($"Positive Infinity: {float.PositiveInfinity}, {double.PositiveInfinity}");
             Console.WriteLine($"NaN: {float.NaN}, {double.NaN}");
+
+            // Test and display result of overflow in uint
+            uint overflowTest = uint.MaxValue;
+            Console.WriteLine($"Overflow in uint: {overflowTest + 1}"); 
         }
     }
 }
