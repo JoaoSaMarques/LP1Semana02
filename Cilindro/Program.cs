@@ -17,6 +17,10 @@ namespace Cilindro
             // Calculate volume
             double V = Math.PI * Math.Pow(r, 2) * a;
 
+            // Calculate surface area
+            double areaSuperficie = 2 * Math.PI * r * (r + a);
+
+
         }
     }
 }
