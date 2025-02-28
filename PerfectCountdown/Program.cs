@@ -6,7 +6,9 @@ namespace PerfectCountdown
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.Write("Start number: ");
+
+            Console.Write("Step number: ");
         }
     }
 }
