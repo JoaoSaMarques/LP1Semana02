@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakConti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTOne", "ChatGPTOne\ChatGPTOne.csproj", "{DE58EEF4-86A6-443C-A7E8-9BABB30D0E03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectCountdown", "PerfectCountdown\PerfectCountdown.csproj", "{BB506C06-7C9C-4C30-B5B5-144E97AAA32A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{DE58EEF4-86A6-443C-A7E8-9BABB30D0E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE58EEF4-86A6-443C-A7E8-9BABB30D0E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE58EEF4-86A6-443C-A7E8-9BABB30D0E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB506C06-7C9C-4C30-B5B5-144E97AAA32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB506C06-7C9C-4C30-B5B5-144E97AAA32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB506C06-7C9C-4C30-B5B5-144E97AAA32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB506C06-7C9C-4C30-B5B5-144E97AAA32A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
