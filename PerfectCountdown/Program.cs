@@ -1,39 +1,44 @@
 ﻿using System;
 
-namespace PerfectCountdown
+class Program
 {
-    public class Program
+    static void Main()
     {
-        private static void Main(string[] args)
+        int start, step;
+
+        while (true)
         {
-            int start, step;
+            Console.Write("Start number: ");
+            start = int.Parse(Console.ReadLine());
 
-            while (true)
+            Console.Write("Step number: ");
+            step = int.Parse(Console.ReadLine());
+
+            if (start <= 1 || step < 1 || step > start)
             {
-                Console.Write("Start number: ");
-                start = int.Parse(Console.ReadLine());
-
-                Console.Write("Step number: ");
-                step = int.Parse(Console.ReadLine());
-
-                if (start <= 1 || step < 1 || step > start)
-                {
-                    Console.WriteLine("Out-of-range start or step. Try again.");
-                    continue;
-                }
-
-                if (step >= start)
-                {
-                    Console.WriteLine("Start must be higher than step. Try again.");
-                    continue;
-                }
-
-                if (start % step != 0)
-                {
-                    Console.WriteLine("Start not divisible by step. Try again.");
-                    continue;
-                }
+                Console.WriteLine("Out-of-range start or step. Try again.");
+                continue;
             }
+
+            if (step >= start)
+            {
+                Console.WriteLine("Start must be higher than step. Try again.");
+                continue;
+            }
+
+            if (start % step != 0)
+            {
+                Console.WriteLine("Start not divisible by step. Try again.");
+                continue;
+            }
+
+            break; // Exit the loop if all conditions are met
+        }
+
+        // Countdown logic
+        for (int i = start; i >= 0; i -= step)
+        {
+            Console.WriteLine(i);
         }
     }
 }
