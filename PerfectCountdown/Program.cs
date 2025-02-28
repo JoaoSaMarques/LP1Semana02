@@ -47,7 +47,7 @@ class Program
 
         // Countdown logic until i reaches 0.
         // i = start, and while it's >= than 0 per number, start -= step.
-        // i is divided by 2 per iteration.
+        // i is reduced by step per iteration.
         for (int i = start; i >= 0; i -= step)
         {
             Console.WriteLine(i);
