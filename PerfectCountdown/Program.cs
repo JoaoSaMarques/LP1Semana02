@@ -18,7 +18,9 @@ class Program
             Console.Write("Step number: ");
             step = int.Parse(Console.ReadLine());
 
-            // Specific requirements.
+            // If start is smaller than or equal to 1.
+            // if step is smaller than 1.
+            // if step is higher than start.
             if (start <= 1 || step < 1 || step > start)
             {
                 Console.WriteLine("Out-of-range start or step. Try again.");
